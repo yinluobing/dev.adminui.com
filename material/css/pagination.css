@@ -1,0 +1,94 @@
+.pagination > li > a {
+  background-color: #fff;
+  color: #455a64;
+  border-color: #fff;
+}
+.pagination.pagination-flat > li > a {
+  border-radius: 0;
+}
+.pagination li a.current,
+.pagination li a.current:hover {
+  color: #fff;
+  border: 1px solid #2962FF;
+  background-color: #2962FF;
+}
+.datepaginator .pagination li a,
+.datepaginator-lg .pagination li a,
+.datepaginator-sm .pagination li a {
+  min-width: 100%;
+}
+.pagination li a {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 50px;
+  padding: 1rem;
+  margin: 0 3px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #67757c;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover {
+  color: #67757c;
+  background-color: #fff;
+  border-color: #fff;
+  cursor: not-allowed;
+}
+.pagination {
+  margin-bottom: 2rem;
+}
+.pagination li a:hover {
+  color: #fff;
+  border: 1px solid #0346ff;
+  background-color: #0346ff !important;
+}
+.products-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.products-list > .item {
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.products-list > .item:after,
+.products-list > .item:before {
+  content: " ";
+  display: table;
+}
+.products-list .product-img {
+  float: left;
+}
+.products-list .product-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.products-list .product-info {
+  margin-left: 60px;
+}
+.products-list .product-description {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.product-list-in-box > .item {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.product-list-in-box > .item:last-of-type {
+  border-bottom-width: 0;
+}
+/*# sourceMappingURL=pagination.css.map */

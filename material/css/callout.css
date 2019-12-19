@@ -1,0 +1,66 @@
+.callout {
+  margin: 0 0 20px;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.callout a {
+  color: #fff;
+  text-decoration: underline;
+}
+.callout a:hover {
+  color: #eee;
+}
+.callout h4 {
+  margin-top: 0;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout.callout-secondary {
+  border-color: #e2e3e5;
+}
+.callout.callout-primary {
+  border-color: #7460ee;
+}
+.callout.callout-danger {
+  border-color: #f62d51;
+}
+.callout.callout-warning {
+  border-color: #ffbc34;
+}
+.callout.callout-info {
+  border-color: #2962FF;
+}
+.callout.callout-success {
+  border-color: #36bea6;
+}
+.alert .icon {
+  margin-right: 10px;
+}
+.alert .close {
+  color: #000;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.alert .close:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.alert a {
+  color: #fff;
+  text-decoration: underline;
+}
+.alert-success {
+  border-color: #36bea6;
+}
+.alert-danger,
+.alert-error {
+  border-color: #e73f3c;
+}
+.alert-warning {
+  border-color: #df9e1b;
+}
+.alert-info {
+  border-color: #2962FF;
+}
+/*# sourceMappingURL=callout.css.map */
